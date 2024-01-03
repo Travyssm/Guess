@@ -41,6 +41,16 @@ View the site [here](https://travyssm.github.io/Guess/)
 
 - __Modal__
 
-- The modal displays when the info button is clicked, this tells the user the aim of the game and how to play.
+    - The modal displays when the info button is clicked, this tells the user the aim of the game and how to play.
 
 ![modal](docs/modal.png)
+
+- __Game Page__
+    - The game page starts out as a second confirmation that you're ready to play and sets up the game area where the quiz will be displayed.
+
+    ![game-page](docs/game-page.png)
+
+- __Media Player__
+    - The mini media player allows the user to play the tracks independently, regardless of the question displayed, allowing for a timeless listening session or pausing it on demand.
+
+    ![music-player](docs/music-player.png)
