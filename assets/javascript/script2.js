@@ -22,7 +22,6 @@ function startQuiz() {
   const questions = [
     {
       question: "What is the name of... Song A?",
-      Audio: "Through Traffic.mp3",
       answers: [
         { text: "Through Traffic", correct: true},
         { text: "Meteor Falls", correct: false},
@@ -32,7 +31,6 @@ function startQuiz() {
     },
     {
       question: "What is the name of... Song B?",
-      Audio: "Gadget Round.mp3",
       answers: [
         { text: "The Divine Wings", correct: false},
         { text: "Un-gravitify", correct: false},
