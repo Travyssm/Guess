@@ -41,6 +41,58 @@ function showQuestion(question){
   })
   };
 
+  function resetState(){
+    clearStatusClass(document.body);
+    nextButton.classList.add("hide");
+    while (answerButtonsElement.firstChild) {
+        answerButtonsElement.removeChild
+        (answerButtonsElement.firstChild)
+    };
+};
+
+function selectAnswer(e) {
+  const selectedButton = e.target;
+  const correct = selectedButton.dataset.correct === "true";
+  setStatusClass(document.body, correct);
+  if (correct){
+    selectedButton.classList.add("correct");
+    score++;
+  } else {
+    selectedButton.classList.add("wrong");
+  }
+  Array.from(answerButtonsElement.children).forEach(button => {
+     if(button.dataset.correct === "true"){
+      button.classList.add("correct");
+     }
+     button.disabled = true;
+  })
+  if (randomQuestions.length > currentQuestionIndex + 1) {
+      nextButton.classList.remove("hide");
+  } else {
+    resetState();
+    questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
+      startButton.innerText = "Play Again";
+      startButton.classList.remove("hide");
+  
+      pauseSong();
+  }
+  }
+  
+  function setStatusClass(element, correct){
+      clearStatusClass(element);
+      if (correct) {
+          element.classList.add("correct");
+      } else {
+          element.classList.add("wrong");
+      }
+  }
+  
+  function clearStatusClass(element) {
+      element.classList.remove("correct");
+      element.classList.remove("wrong");
+  }
+  
+
   const questions = [
     {
       question: "What is the name of... Song A?",
