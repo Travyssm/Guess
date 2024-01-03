@@ -6,33 +6,32 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Guess</title>
 </head>
-<body>
+<body class="home">
     <div class="wrapper">
         <div class="title">
           <h1 class="guess"> Guess </h1>
           </div>
         
-        <div class="question">
+        <div>
         <h1 class="question-mark"> ? </h1>
         </div>
           
           <div class="info">
-            <button id="myBtn" class="info-text"> INFO </button>
+            <button id="infoBtn" class="info-text">INFO</button>
           </div>
            
            <div id="myModal" class="modal">
-        
-          <!-- Modal content -->
+            
           <div class="modal-content">
             <span class="close">&times;</span>
             <p>This is a simple game where you guess the track name of the song you hear using the multiple choice answers provided. 
-                Press the play button to hear the song.</p>
+                Use the music player to match the song you are being asked to name.</p>
           </div>
-        
         </div>
-          
-          <div class="play"> 
-            <button class="play-text"> PLAY </button>
+          <div class="play">
+            <a href="game-page.html">
+            <button class="play-text">PLAY</button>
+          </a>
           </div>
         </div>
         <script src="assets/javascript/script.js"></script>
