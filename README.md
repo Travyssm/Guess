@@ -83,3 +83,9 @@ The testing for Guess was done using the Google Chrome Browser and their Chrome 
 - CSS 
     - no errors were returned when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
     ![css-results](docs/css-results.png)
+
+### Accessibility
+
+- This was checked using the free tool on this [site](https://pagespeed.web.dev/)
+
+![score1](docs/accessibility-score1.png) ![score2](docs/accessibility-score2.png)
