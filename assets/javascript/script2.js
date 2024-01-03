@@ -23,6 +23,17 @@ function loadSong(song) {
   audio.src = `assets/media/${song}.mp3`
   };
 
+
+  playBtn.addEventListener("click", () => {
+    const isPlaying = musicContainer.classList.contains("play")
+  
+    if (isPlaying) {
+      pauseSong()
+    } else {
+      playSong()
+    }
+  })
+
 let randomQuestions, currentQuestionIndex;
 let score = 0;
 startButton.addEventListener("click", startQuiz);
