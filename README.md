@@ -89,3 +89,24 @@ The testing for Guess was done using the Google Chrome Browser and their Chrome 
 - This was checked using the free tool on this [site](https://pagespeed.web.dev/)
 
 ![score1](docs/accessibility-score1.png) ![score2](docs/accessibility-score2.png)
+
+### Known Bugs
+
+- The game page does not fit as intended when displayed on a screen as small as the galaxy fold device.
+
+## Deployment
+
+The project was deployed to github pages using the following steps:
+  
+  1. On GitHub, navigate to your site's repository.
+  2. Under your repository name, click  *Settings*.
+  3. In the left sidebar, click Pages.
+  4. Under "GitHub Pages", use the *Branch* drop-down menu and select a publishing source.
+  5. Optionally, use the drop-down menu to select a folder for your publishing source.
+  6. Click Save.
+  7. Once refreshed and successfully deployed, your published site link should be at the top of "Github Pages"
+
+## Credits
+* The tracks used for the quiz were sourced from this [Youtube channel](https://www.youtube.com/@DeoxysPrime) and converted into mp3 files.
+* The icons for the media player were accessible through [Font awesome](https://fontawesome.com/)
+* The quiz layout and coding help were sourced from this [Youtube channel](https://www.youtube.com/@WebDevSimplified).
