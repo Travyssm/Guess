@@ -118,9 +118,9 @@ body {
     left: 0;
     top: 0;
     width: 100%;
-    height: 100%; 
-    overflow: auto; 
-    background-color: rgb(0,0,0); 
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.4);
   }
   
@@ -132,8 +132,9 @@ body {
     margin: 15% auto;
     padding: 20px;
     border: 5px solid aqua;
-    width: 80%; 
+    width: 80%; /
   }
+  
   
   .close {
     color: #aaa;
@@ -149,3 +150,129 @@ body {
     cursor: pointer;
   }
 
+div h1 {
+  border-bottom: 5px solid aqua;
+  margin-top: 0;
+  padding-bottom: 20px;
+  font-size: 50px;
+}
+.game-area {
+  width: 800px;
+  max-width: 80%;
+  background-color: #FFF;
+  border-radius: 25px;
+  border: 5px solid #8124CA;
+  padding: 10px;
+  box-shadow: 0 0 10px 5px;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.btn {
+  --hue:var(--hue-purple);
+  background-color: hsl(var(--hue), 100%, 50%);
+  color: #FFF;
+  border-radius: 50px;
+  padding: 5px 10px;
+  border: 5px solid white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.btn:hover:not([disabled]) {
+  border-color: aqua;
+}
+
+.btn:disabled {
+  border-color: black;
+  cursor: no-drop;
+}
+
+.btn.correct {
+  --hue: var(--hue-correct);
+  color: black;
+}
+
+.btn.wrong {
+  --hue: var(--hue-wrong);
+  color: black;
+}
+
+.music-container {
+  float: right;
+  background-color: #FFF;
+  display: flex;
+  position: relative;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#prev, #next, #play {
+  font-size: 20px;
+  margin-top: 10px;
+  padding-left: 5px;
+}
+
+.music-info {
+  background-color:rgba(139, 117, 253, 0.4);
+  border-radius: 15px 15px 0 0;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: calc(100% - 40px);
+  transform: translateY(0%);
+  transition: transform 0.3s ease-in;
+  opacity: 0;
+}
+
+.music-info h4{
+  margin: 0 ;
+  font-size: 20px;
+}
+
+.music-container.play .music-info {
+  opacity: 1;
+  transform: translateY(-100%);
+}
+
+.progress-container {
+  background: #FFF;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px 0;
+  height: 4px;
+  width: 100%;
+}
+
+.progress {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  height: 100%;
+  width: 50%;
+  transition: width 0.1s linear;
+}
+
+.start-btn, .next-btn {
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.game-controls{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
