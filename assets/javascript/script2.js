@@ -14,6 +14,14 @@ const title = document.getElementById("song-title");
 
 const songs = ["Song A", "Song B", "Song C", "Song D"];
 
+let songIndex = 3;
+
+loadSong(songs[songIndex]);
+
+function loadSong(song) {
+  title.innerText = song;
+  audio.src = `assets/media/${song}.mp3`
+  };
 
 let randomQuestions, currentQuestionIndex;
 let score = 0;
