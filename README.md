@@ -54,3 +54,9 @@ View the site [here](https://travyssm.github.io/Guess/)
     - The mini media player allows the user to play the tracks independently, regardless of the question displayed, allowing for a timeless listening session or pausing it on demand.
 
     ![music-player](docs/music-player.png)
+
+## Testing 
+
+The testing for Guess was done using the Google Chrome Browser and their Chrome Developer Tools to make note of how the site responded when different screen sizes were used. Testing was also done on Microsoft edge and an iPhone XR using Safari to make sure the website renders correctly on different browsers and devices. On using chrome developer tools an error was found where the image wouldnt render correctly on a Galaxy Fold device.
+
+![game-page-mobile](docs/game-page-mobile.png) ![game-page-tablet](docs/game-page-tablet.png)
