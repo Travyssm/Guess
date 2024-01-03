@@ -64,6 +64,12 @@ function loadSong(song) {
       playSong();
     }
 
+    function updateProgress(e){
+      const {duration, currentTime} = e.srcElement;
+      const progressPercent = (currentTime / duration) * 100
+      progress.style.width = `${progressPercent}%`
+    }
+
   playBtn.addEventListener("click", () => {
     const isPlaying = musicContainer.classList.contains("play")
   
@@ -76,6 +82,8 @@ function loadSong(song) {
 
 prevBtn.addEventListener("click", prevSong);
 nextBtn.addEventListener("click", nextSong);
+
+audio.addEventListener("timeUpdate", updateProgress);
 
 let randomQuestions, currentQuestionIndex;
 let score = 0;
