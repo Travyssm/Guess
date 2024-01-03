@@ -109,6 +109,7 @@ body {
     background: #8124CA;
     border: none;
     cursor: pointer;
+    text-decoration: none;
   }
   
   .modal {
