@@ -79,3 +79,7 @@ The testing for Guess was done using the Google Chrome Browser and their Chrome 
 - HTML
     - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
     ![home-page-test](docs/home-page-test.png) ![game-page-test](docs/game-page-test.png)
+
+- CSS 
+    - no errors were returned when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+    ![css-results](docs/css-results.png)
