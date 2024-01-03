@@ -51,6 +51,9 @@ function loadSong(song) {
     }
   })
 
+prevBtn.addEventListener("click", prevSong);
+nextBtn.addEventListener("click", nextSong);
+
 let randomQuestions, currentQuestionIndex;
 let score = 0;
 startButton.addEventListener("click", startQuiz);
