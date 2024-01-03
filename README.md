@@ -2,7 +2,7 @@
 
 Guess is a site that is aimed at people wanting to take a short audio quiz for recreational purposes.
 
-View the site...
+View the site [here](https://travyssm.github.io/Guess/)
 
 ## User Experience 
 
@@ -34,4 +34,13 @@ View the site...
 ## Features
 ### Existing Features
 
+- __Home Page__
+    - The home page is where you get access to both the info button and the play button so that you get information on how to play before you start.
+
+    ![home-page](docs/home-page.png)
+
 - __Modal__
+
+- The modal displays when the info button is clicked, this tells the user the aim of the game and how to play.
+
+![modal](docs/modal.png)
