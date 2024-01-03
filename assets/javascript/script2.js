@@ -3,6 +3,16 @@ const nextButton = document.getElementById("next-btn");
 const questionArea = document.getElementById("question-area");
 const questionElement = document.getElementById("question");
 const answerButtonsElement = document.getElementById("answer-buttons");
+const musicContainer = document.getElementsByClassName("music-container");
+const playBtn = document.getElementById("play");
+const prevBtn = document.getElementById("prev");
+const nextBtn = document.getElementById("next");
+const audio = document.getElementById("audio");
+const progress = document.getElementsByClassName("progress");
+const progressContainer = document.getElementsByClassName("progress-container");
+const title = document.getElementById("song-title");
+
+const songs = ["Song A", "Song B", "Song C", "Song D"];
 
 
 let randomQuestions, currentQuestionIndex;
