@@ -74,3 +74,8 @@ The testing for Guess was done using the Google Chrome Browser and their Chrome 
 5. As a frequent visitor, I would like to know which answers I got incorrect.
     * This is implemented whenever you select an answer that is wrong, the display will show red and present you the correct answer in green.
 
+### Validator Testing
+
+- HTML
+    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
+    ![home-page-test](docs/home-page-test.png) ![game-page-test](docs/game-page-test.png)
