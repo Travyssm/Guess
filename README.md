@@ -60,3 +60,17 @@ View the site [here](https://travyssm.github.io/Guess/)
 The testing for Guess was done using the Google Chrome Browser and their Chrome Developer Tools to make note of how the site responded when different screen sizes were used. Testing was also done on Microsoft edge and an iPhone XR using Safari to make sure the website renders correctly on different browsers and devices. On using chrome developer tools an error was found where the image wouldnt render correctly on a Galaxy Fold device.
 
 ![game-page-mobile](docs/game-page-mobile.png) ![game-page-tablet](docs/game-page-tablet.png)
+
+### User Stories Testing
+
+1. As a first time user, I want to understand how to play the quiz correctly.
+    * The info button on the home page opens up a modal that tells the user what the game is and how to play the quiz using the music player.
+2. As a returning visitor, I want to be able to play again as soon as possible.
+    * This is made possible by clicking the play again button that displays after the quiz has ended.
+3. As a returning visitor, I want to be able to play and pause the song.
+    * The music player allows this functionality as well as skipping to certain parts of the track playing.
+4. As a frequent visitor, I would like to see my score at the end of the quiz.
+    * After the quiz has ended, it will display how many questions you got correct out of the possible number of questions provided.
+5. As a frequent visitor, I would like to know which answers I got incorrect.
+    * This is implemented whenever you select an answer that is wrong, the display will show red and present you the correct answer in green.
+
