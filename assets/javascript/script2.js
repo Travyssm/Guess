@@ -94,6 +94,8 @@ nextBtn.addEventListener("click", nextSong);
 audio.addEventListener("timeUpdate", updateProgress);
 progressContainer.addEventListener("click", setProgress);
 
+audio.addEventListener("ended", nextSong);
+
 
 let randomQuestions, currentQuestionIndex;
 let score = 0;
