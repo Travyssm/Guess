@@ -109,5 +109,5 @@ The project was deployed to github pages using the following steps:
 ## Credits
 * The tracks used for the quiz were sourced from this [Youtube channel](https://www.youtube.com/@DeoxysPrime) and converted into mp3 files.
 * The icons for the media player were accessible through [Font awesome](https://fontawesome.com/)
-* The quiz layout and design were sourced from this [Youtube video](https://www.youtube.com/watch?v=riDzcEQbX6k).
+* The quiz was created with the aid of this [Youtube video](https://www.youtube.com/watch?v=riDzcEQbX6k).
 * The music player was created with the aid of this [Youtube video](https://www.youtube.com/watch?v=QTHRWGn_sJw)
